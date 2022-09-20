@@ -12,6 +12,10 @@ This repository contains the following sub-directories:
 
 Based on these (free) courses:
 
+- [Docker - Get Started](https://docs.docker.com/get-started/),
+- [Use Docker Tools in Visual Studio on Windows](https://learn.microsoft.com/en-us/dotnet/architecture/containerized-lifecycle/design-develop-containerized-apps/visual-studio-tools-for-docker),
+- [Prepare an application for Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/aks/tutorial-kubernetes-prepare-app),
+- [Containerized Docker Application Lifecycle with Microsoft Platform and Tools](https://learn.microsoft.com/en-us/dotnet/architecture/containerized-lifecycle/),
 - [Intro to Docker - A Tool Every Developer Should Know](https://youtu.be/WcQ3-M4-jik),
 - [Deploy a .NET Core API with Docker (Step-by-Step)](https://youtu.be/f0lMGPB10bM),
 - [Step by step - Run and Connect to SQL Server in Docker](https://youtu.be/SJAl3vOX05M).
@@ -31,4 +35,6 @@ Also used these (paid) courses & books:
 
 Some useful tools & other resources:
 
-- [TODO](TODO).
+- [Docker](https://www.docker.com/),
+- [DockerHub](https://hub.docker.com/),
+- [Docker in Visual Studio Code](https://code.visualstudio.com/docs/containers/overview) [:file_folder:](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker).
