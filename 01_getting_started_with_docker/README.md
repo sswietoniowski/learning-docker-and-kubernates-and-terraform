@@ -124,6 +124,24 @@ Build and run Swarm:
 docker swarm init
 ```
 
+Join Swarm:
+
+```cmd
+docker swarm join --token [TOKEN] [IP]:2377
+```
+
+Leave Swarm:
+
+```cmd
+docker swarm leave --force
+```
+
+List Swarm nodes:
+
+```cmd
+docker node ls
+```
+
 Deploy stack:
 
 ```cmd
