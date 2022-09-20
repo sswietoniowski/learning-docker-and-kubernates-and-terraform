@@ -88,6 +88,12 @@ Remove container:
 docker rm pgs-first-container
 ```
 
+Check Docker Composer version:
+
+```cmd
+docker-compose --version
+```
+
 Build Compose file:
 
 ```cmd
