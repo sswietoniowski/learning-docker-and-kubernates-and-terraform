@@ -22,12 +22,14 @@ Based on these (free) courses:
 
 Also used these (paid) courses & books:
 
-- [Getting Started with Docker](https://app.pluralsight.com/library/courses/getting-started-docker/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/getting-started-docker/exercise-files) :arrow_forward:,
+- [Docker and Kubernetes: The Big Picture](https://app.pluralsight.com/library/courses/docker-kubernetes-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/docker-kubernetes-big-picture/exercise-files) :+1:,
+- [Getting Started with Docker](https://app.pluralsight.com/library/courses/getting-started-docker/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/getting-started-docker/exercise-files) [:file_folder:]() :arrow_forward:,
 - [Building and Running Your First Docker App](https://app.pluralsight.com/library/courses/docker-building-running-first-app/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/docker-building-running-first-app/exercise-files),
 - [Building and Orchestrating Containers with Docker Compose](https://app.pluralsight.com/library/courses/docker-compose-building-orchestrating-containers/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/docker-compose-building-orchestrating-containers/exercise-files),
 - [Developing Docker Apps: Core Principles](https://app.pluralsight.com/library/courses/docker-apps-developing-core-principles/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/docker-apps-developing-core-principles/exercise-files),
 - [Deploying Containerized Applications](https://app.pluralsight.com/library/courses/deploying-containerized-applications/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/deploying-containerized-applications/exercise-files),
 - [Developing .NET Core 5 Apps with Docker](https://app.pluralsight.com/library/courses/docker-dot-net-core-apps-developing/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/docker-dot-net-core-apps-developing/exercise-files),
+- [Docker for Web Developers](https://app.pluralsight.com/library/courses/docker-web-development/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/docker-web-developers/exercise-files),
 - [Developing React.js Apps with Docker](https://app.pluralsight.com/library/courses/reactjs-apps-docker-developing/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/reactjs-apps-docker-developing/exercise-files),
 - [Developing SQL 14 Server Databases with Docker 20](https://app.pluralsight.com/library/courses/sql-server-databases-docker-developing/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/sql-server-databases-docker-developing/exercise-files).
 
