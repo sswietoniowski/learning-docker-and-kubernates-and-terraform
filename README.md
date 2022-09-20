@@ -1,6 +1,6 @@
 # Learning Docker - Fundamentals
 
-This repository contains resources helping grasp the basics of Docker.
+This repository contains resources helping grasps the basics of Docker.
 
 ## Repository Contents
 
