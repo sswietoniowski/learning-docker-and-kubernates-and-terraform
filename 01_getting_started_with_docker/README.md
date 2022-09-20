@@ -1,5 +1,7 @@
 # Getting Started with Docker
 
+Gentle introduction to Docker :-).
+
 ## Basic Commands
 
 Check version:
