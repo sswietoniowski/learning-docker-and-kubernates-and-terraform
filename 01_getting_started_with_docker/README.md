@@ -1,9 +1,23 @@
 # Getting Started with Docker
 
+
+
 ## Basic Commands
 
-## Useful Resources
+Check version:
 
-Useful resources:
+```cmd
+docker --version
+```
 
-- [Docker for Windows](https://docs.docker.com/docker-for-windows/).
+Check help:
+
+```cmd
+docker [COMMAND] --help
+```
+
+Check info:
+
+```cmd
+docker info
+```
