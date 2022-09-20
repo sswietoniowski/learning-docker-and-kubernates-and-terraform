@@ -79,3 +79,45 @@ Remove container:
 ```cmd
 docker rm pgs-first-container
 ```
+
+Build Compose file:
+
+```cmd
+docker-compose build
+```
+
+Run Compose file:
+
+```cmd
+docker-compose up
+```
+
+Stop Compose file:
+
+```cmd
+docker-compose down
+```
+
+Remove Compose file:
+
+```cmd
+docker-compose rm
+```
+
+Build and run Swarm:
+
+```cmd
+docker swarm init
+```
+
+Deploy stack:
+
+```cmd
+docker stack deploy -c docker-compose.yml pgs-first-container
+```
+
+Remove stack:
+
+```cmd
+docker stack rm pgs-first-container
+```
