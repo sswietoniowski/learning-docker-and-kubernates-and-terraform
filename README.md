@@ -6,7 +6,7 @@ This repository contains resources helping grasp the basics of Docker.
 
 This repository contains the following sub-directories:
 
-- [TODO](TODO).
+- [01_getting_started_with_docker](01_getting_started_with_docker/).
 
 ## Learning Resources
 
