@@ -61,13 +61,19 @@ docker ps
 or
 
 ```cmd
-docker container ls
+docker container ls -a
 ```
 
 Stop container:
 
 ```cmd
 docker stop pgs-first-container
+```
+
+Start container:
+
+```cmd
+docker start pgs-first-container
 ```
 
 Kill container:
