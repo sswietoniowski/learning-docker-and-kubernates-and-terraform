@@ -103,7 +103,7 @@ docker-compose build
 Run Compose file:
 
 ```cmd
-docker-compose up
+docker-compose up -d
 ```
 
 Stop Compose file:
