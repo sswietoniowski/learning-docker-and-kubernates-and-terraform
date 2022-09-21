@@ -1,12 +1,13 @@
 # Learning Docker - Fundamentals
 
-This repository contains resources helping grasp the basics of Docker.
+This repository contains resources helping grasps the basics of Docker.
 
 ## Repository Contents
 
 This repository contains the following sub-directories:
 
-- [01_getting_started_with_docker](01_getting_started_with_docker/).
+- [01_getting_started_with_docker](01_getting_started_with_docker/),
+- [02_building_and_running_your_1st_docker_app](02_building_and_running_your_1st_docker_app).
 
 ## Learning Resources
 
