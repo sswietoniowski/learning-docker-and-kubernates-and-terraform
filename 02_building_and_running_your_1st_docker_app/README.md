@@ -26,8 +26,7 @@ While pushing the image to the registry we should consider using 2FA (2 Factor A
 If so, we might need to use `docker login` command to login to the registry, and create an
 access token for the image push.
 
-Instead of using CLI we might use VSC extension for Docker. It has a nice feature of
-building images from Dockerfiles. It also has a nice feature of pushing images to the registry.
+Instead of using CLI we might use VSC extension for Docker, it has a nice feature of pushing images to the registry.
 
 ## Run an Application Container
 
