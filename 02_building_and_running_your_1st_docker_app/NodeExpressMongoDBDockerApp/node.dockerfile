@@ -18,6 +18,7 @@
 # docker run -d -p 3000:3000 --link my-mongodb:mongodb --name nodeapp danwahlin/nodeapp
 
 # Base image (in this case Alpine Linux)
+# You'll find a list of available images at https://hub.docker.com/_/alpine/
 FROM        node:alpine
 # Our labels
 LABEL       author="Sławomir Świętoniowski"
