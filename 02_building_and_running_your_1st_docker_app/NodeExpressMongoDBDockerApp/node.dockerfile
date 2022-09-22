@@ -20,24 +20,42 @@
 # Base image (in this case Alpine Linux)
 # You'll find a list of available images at https://hub.docker.com/_/alpine/
 FROM        node:alpine
+
 # Our labels
 LABEL       author="Sławomir Świętoniowski"
+
 # We can define some variables here
 ARG         PACKAGES=nano
+
 # Define environment variables
+ENV NODE_ENV=production
+ENV PORT=3000
 ENV         TERM xterm
+
 # Different commands to run
 RUN         apk update && apk add $PACKAGES
-# Starting point of your app
+
+# Starting point of your app (inside the container),
+# our working folder
 WORKDIR     /var/www
+
 # Copy settings, scripts, etc. to the container
 COPY        package.json package-lock.json ./
+
 # As abowe
 RUN         npm install
+
 # Again copy the rest of files
+# ./ means the current directory 
+# If we don't want to copy everything (example content of node_modules),
+# we could create a .dockerignore file (its structure is the same as .gitignore)
 COPY        . ./
+
+
 # Expose port from this container, in this case we're exposing port 3000
 EXPOSE      $PORT
+
 # What to execute when the container starts
 ENTRYPOINT  ["npm", "start"]
+
 # More info about these commands: https://docs.docker.com/engine/reference/builder/
