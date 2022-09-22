@@ -17,20 +17,26 @@
 # docker run -d --name my-mongodb mongo
 # docker run -d -p 3000:3000 --link my-mongodb:mongodb --name nodeapp danwahlin/nodeapp
 
+# Base image (in this case Alpine Linux)
 FROM        node:alpine
-
-LABEL       author="Dan Wahlin"
-
+# Our labels
+LABEL       author="Sławomir Świętoniowski"
+# We can define some variables here
 ARG         PACKAGES=nano
-
+# Define environment variables
 ENV         TERM xterm
+# Different commands to run
 RUN         apk update && apk add $PACKAGES
-
+# Starting point of your app
 WORKDIR     /var/www
+# Copy settings, scripts, etc. to the container
 COPY        package.json package-lock.json ./
+# As abowe
 RUN         npm install
-
+# Again copy the rest of files
 COPY        . ./
+# Expose port from this container, in this case we're exposing port 3000
 EXPOSE      $PORT
-
+# What to execute when the container starts
 ENTRYPOINT  ["npm", "start"]
+# More info about these commands: https://docs.docker.com/engine/reference/builder/
