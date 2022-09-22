@@ -22,8 +22,10 @@ docker build -t sswietoniowski/nodeapp:1.0.0 -f node.dockerfile .
 
 Last part of the image name is version. We can use any versioning scheme we want.
 
+While pushing the image to the registry we should consider using 2FA (2 Factor Authentication).
+If so, we might need to use `docker login` command to login to the registry, and create an
+access token for the image push.
+
 ## Run an Application Container
-
-
 
 ## Communicate between multiple Containers
