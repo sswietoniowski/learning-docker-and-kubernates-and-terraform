@@ -30,4 +30,58 @@ Instead of using CLI we might use VSC extension for Docker, it has a nice featur
 
 ## Run an Application Container
 
+To retrieve the image from the registry we can use:
+
+```cmd
+docker pull sswietoniowski/nodeapp:1.0.0
+```
+
+To run the container we can use:
+
+```cmd
+docker run -d -p 3000:3000 --name nodeapp sswietoniowski/nodeapp:1.0.0
+```
+
+Option "-d" is for running the container in the background.
+
+Option "-p" is for mapping the port 3000 on the host to the port 3000 on the container.
+
+Option "--name" is for naming the container.
+
+To show container logs we can use:
+
+```cmd
+docker logs nodeapp
+```
+
+To stop the container we can use:
+
+```cmd
+docker stop nodeapp
+```
+
+To remove the container we can use:
+
+```cmd
+docker rm nodeapp
+```
+
+To remove the image we can use:
+
+```cmd
+docker rmi sswietoniowski/nodeapp:1.0.0
+```
+
+To store some data permanently we can use volumes. We can create a volume with:
+
+```cmd
+docker volume create nodeapp
+```
+
+To run the container with a volume we can use:
+
+```cmd
+docker run -d -p 3000:3000 --name nodeapp -v nodeapp:/app/data sswietoniowski/nodeapp:1.0.0
+```
+
 ## Communicate between multiple Containers
