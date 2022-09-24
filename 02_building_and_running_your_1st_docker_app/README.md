@@ -85,3 +85,27 @@ docker run -d -p 3000:3000 --name nodeapp -v nodeapp:/app/data sswietoniowski/no
 ```
 
 ## Communicate between multiple Containers
+
+To create a bridge network we can use:
+
+```cmd
+docker network create nodeapp
+```
+
+To list available networks we can use:
+
+```cmd
+docker network ls
+```
+
+To run the container with a network we can use:
+
+```cmd
+docker run -d -p 3000:3000 --name nodeapp --network nodeapp sswietoniowski/nodeapp:1.0.0
+```
+
+To run the container with a network and a volume we can use:
+
+```cmd
+docker run -d -p 3000:3000 --name nodeapp --network nodeapp -v nodeapp:/app/data sswietoniowski/nodeapp:1.0.0
+```
