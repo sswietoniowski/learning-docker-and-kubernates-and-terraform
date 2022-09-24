@@ -1,7 +1,10 @@
+# version number of the package
 version: '3.7'
 
+# services contains the services that make up the application
 services:
 
+  # The first service is the web service
   node:
     container_name: nodeapp
     image: nodeapp
@@ -22,12 +25,14 @@ services:
     depends_on: 
       - mongodb
       
+  # The second service is the database service
   mongodb:
     container_name: mongodb
     image: mongo
     networks:
       - nodeapp-network
 
+# networks contains the networks that make up the application
 networks:
   nodeapp-network:
     driver: bridge

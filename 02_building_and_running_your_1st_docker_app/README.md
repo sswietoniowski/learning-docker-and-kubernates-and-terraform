@@ -142,6 +142,12 @@ docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}:{{(i
 
 To work with multiple containers we can use docker-compose. We can create a docker-compose.yml file and my comments inside should help you understand what is going on.
 
+To build the containers we can use:
+
+```cmd
+docker-compose build
+```
+
 To run the containers we can use:
 
 ```cmd
