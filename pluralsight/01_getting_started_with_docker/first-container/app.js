@@ -1,16 +1,16 @@
-var express = require('express');
-var exphbs  = require('express-handlebars');
-var app = express();
-var os = require("os");
-var morgan  = require('morgan');
+const express = require('express');
+const exphbs  = require('express-handlebars');
+const app = express();
+const os = require("os");
+const morgan  = require('morgan');
 
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 app.use(express.static('static'));
 app.use(morgan('combined'));
 
-var port = process.env.PORT || 8080;
-var message = process.env.MESSAGE || "Have a blast learning Docker!";
+const port = process.env.PORT || 8080;
+const message = process.env.MESSAGE || "Have a blast learning Docker!";
 
 app.get('/', function (req, res) {
     res.render('home', {
