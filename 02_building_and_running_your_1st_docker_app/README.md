@@ -115,3 +115,9 @@ To run the container with a network and a volume we can use:
 ```cmd
 docker run -d -p 3000:3000 --name nodeapp --network nodeapp -v nodeapp:/app/data sswietoniowski/nodeapp:1.0.0
 ```
+
+To connect to the container we can use:
+
+```cmd
+docker exec -it nodeapp bash
+```
