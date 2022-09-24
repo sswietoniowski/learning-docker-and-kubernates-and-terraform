@@ -98,6 +98,12 @@ To list available networks we can use:
 docker network ls
 ```
 
+To remove a network we can use:
+
+```cmd
+docker network rm nodeapp
+```
+
 To run the container with a network we can use:
 
 ```cmd
