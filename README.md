@@ -6,8 +6,7 @@ This repository contains resources helping grasps the basics of Docker.
 
 This repository contains the following sub-directories:
 
-- [01_getting_started_with_docker](01_getting_started_with_docker/),
-- [02_building_and_running_your_1st_docker_app](02_building_and_running_your_1st_docker_app).
+- [pluralsight](pluralsight) - Contains resources for the Pluralsight paths [Docker Fundamentals for Developers](https://app.pluralsight.com/paths/skills/docker-fundamentals-for-developers) and [Managing Docker in Production](https://app.pluralsight.com/paths/skill/managing-docker-in-production).
 
 ## Learning Resources
 
