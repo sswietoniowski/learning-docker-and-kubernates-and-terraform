@@ -121,3 +121,41 @@ To connect to the container we can use:
 ```cmd
 docker exec -it nodeapp bash
 ```
+
+To show container IP address we can use:
+
+```cmd
+docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' nodeapp
+```
+
+To show container IP address and port we can use:
+
+```cmd
+docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}:{{(index (index .NetworkSettings.Ports "3000/tcp") 0).HostPort}}' nodeapp
+```
+
+To show container IP address and port for all containers we can use:
+
+```cmd
+docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}:{{(index (index .NetworkSettings.Ports "3000/tcp") 0).HostPort}}' $(docker ps -aq)
+```
+
+To work with multiple containers we can use docker-compose. We can create a docker-compose.yml file and my comments inside should help you understand what is going on.
+
+To run the containers we can use:
+
+```cmd
+docker-compose up -d
+```
+
+To stop the containers we can use:
+
+```cmd
+docker-compose down
+```
+
+To remove the containers we can use:
+
+```cmd
+docker-compose rm
+```
