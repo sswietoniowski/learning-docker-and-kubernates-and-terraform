@@ -20,7 +20,8 @@ Based on these (free) courses:
 - [Intro to Docker - A Tool Every Developer Should Know](https://youtu.be/WcQ3-M4-jik) :arrow_forward:,
 - [Deploy a .NET Core API with Docker (Step-by-Step)](https://youtu.be/f0lMGPB10bM) :arrow_forward:,
 - [Step by step - Run and Connect to SQL Server in Docker](https://youtu.be/SJAl3vOX05M) :arrow_forward:,
-- [Docker Compose with .NET Core & SQL Server (Step by Step)](https://youtu.be/4V7CwC_4oss) :arrow_forward:.
+- [Docker Compose with .NET Core & SQL Server (Step by Step)](https://youtu.be/4V7CwC_4oss) :arrow_forward:,
+- [Web API in NET 6 + Docker ](https://dev.to/berviantoleo/web-api-in-net-6-docker-41d5) :+1:.
 
 Also used these (paid) courses & books:
 
