@@ -1,4 +1,4 @@
-# version number of the package
+# version number of the package in the format major.minor.patch
 version: '3.7'
 
 # services contains the services that make up the application
