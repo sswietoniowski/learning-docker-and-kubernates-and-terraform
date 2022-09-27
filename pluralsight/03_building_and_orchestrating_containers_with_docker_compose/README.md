@@ -86,7 +86,3 @@ docker-compose networks
 ## Orchestrating Containers with Docker Compose
 
 ## Additional Docker Compose Features
-
-```
-
-```
