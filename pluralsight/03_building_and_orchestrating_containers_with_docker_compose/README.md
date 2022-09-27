@@ -58,8 +58,35 @@ Inside "NodeExpressMongoDBDockerApp" folder we have a "docker-compose.yml" (or \
 
 You might read through this file to understand how YAML can be used to describe a Docker Compose file.
 
+### Docker Compose
+
+Basic commands:
+
+```bash
+# build and run containers
+docker-compose up
+# build and run containers in the background
+docker-compose up -d
+# stop containers
+docker-compose stop
+# stop and remove containers
+docker-compose down
+# list containers
+docker-compose ps
+# list images
+docker-compose images
+# list volumes
+docker-compose volumes
+# list networks
+docker-compose networks
+```
+
 ## Building Images with Docker Compose
 
 ## Orchestrating Containers with Docker Compose
 
 ## Additional Docker Compose Features
+
+```
+
+```
