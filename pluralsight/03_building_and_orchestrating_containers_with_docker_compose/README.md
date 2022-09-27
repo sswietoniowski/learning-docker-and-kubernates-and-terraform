@@ -54,7 +54,7 @@ Be aware that indentation is important in YAML.
 
 Always use spaces (preferred 2) for indentation.
 
-Inside "NodeExpressMongoDBDockerApp" folder we have a "docker-compose.yml" file.
+Inside "NodeExpressMongoDBDockerApp" folder we have a "docker-compose.yml" (or \*.yaml) file.
 
 You might read through this file to understand how YAML can be used to describe a Docker Compose file.
 
