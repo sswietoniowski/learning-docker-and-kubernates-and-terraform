@@ -15,9 +15,9 @@ This repository contains the following sub-directories:
 
 Based on these (free) courses:
 
-- **[Docker - Get Started](https://docs.docker.com/get-started/)** :+1:,
-- **[Use Docker Tools in Visual Studio on Windows](https://learn.microsoft.com/en-us/dotnet/architecture/containerized-lifecycle/design-develop-containerized-apps/visual-studio-tools-for-docker)** :+1:,
-- **[Prepare an application for Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/aks/tutorial-kubernetes-prepare-app)** :+1:,
+- _[Docker - Get Started](https://docs.docker.com/get-started/)_ :+1:,
+- _[Use Docker Tools in Visual Studio on Windows](https://learn.microsoft.com/en-us/dotnet/architecture/containerized-lifecycle/design-develop-containerized-apps/visual-studio-tools-for-docker)_ :+1:,
+- _[Prepare an application for Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/aks/tutorial-kubernetes-prepare-app)_ :+1:,
 - [Containerized Docker Application Lifecycle with Microsoft Platform and Tools](https://learn.microsoft.com/en-us/dotnet/architecture/containerized-lifecycle/),
 - [Intro to Docker - A Tool Every Developer Should Know](https://youtu.be/WcQ3-M4-jik) :arrow_forward:,
 - [Deploy a .NET Core API with Docker (Step-by-Step)](https://youtu.be/f0lMGPB10bM) :arrow_forward:,
@@ -29,9 +29,9 @@ Based on these (free) courses:
 
 Also used these (paid) courses & books:
 
-- **[Docker and Kubernetes: The Big Picture](https://app.pluralsight.com/library/courses/docker-kubernetes-big-picture/table-of-contents)** [:file_folder:](https://app.pluralsight.com/library/courses/docker-kubernetes-big-picture/exercise-files) :+1:,
-- **[Getting Started with Docker](https://app.pluralsight.com/library/courses/getting-started-docker/table-of-contents)** [:file_folder:](https://app.pluralsight.com/library/courses/getting-started-docker/exercise-files) [:file_folder:](https://github.com/nigelpoulton/gsd) :+1:,
-- **[Building and Running Your First Docker App](https://app.pluralsight.com/library/courses/docker-building-running-first-app/table-of-contents)** [:file_folder:](https://app.pluralsight.com/library/courses/docker-building-running-first-app/exercise-files) [:file_folder:](https://github.com/DanWahlin/NodeExpressMongoDBDockerApp) :+1:,
+- _[Docker and Kubernetes: The Big Picture](https://app.pluralsight.com/library/courses/docker-kubernetes-big-picture/table-of-contents)_ [:file_folder:](https://app.pluralsight.com/library/courses/docker-kubernetes-big-picture/exercise-files) :+1:,
+- _[Getting Started with Docker](https://app.pluralsight.com/library/courses/getting-started-docker/table-of-contents)_ [:file_folder:](https://app.pluralsight.com/library/courses/getting-started-docker/exercise-files) [:file_folder:](https://github.com/nigelpoulton/gsd) :+1:,
+- _[Building and Running Your First Docker App](https://app.pluralsight.com/library/courses/docker-building-running-first-app/table-of-contents)_ [:file_folder:](https://app.pluralsight.com/library/courses/docker-building-running-first-app/exercise-files) [:file_folder:](https://github.com/DanWahlin/NodeExpressMongoDBDockerApp) :+1:,
 - [Building and Orchestrating Containers with Docker Compose](https://app.pluralsight.com/library/courses/docker-compose-building-orchestrating-containers/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/docker-compose-building-orchestrating-containers/exercise-files) [:file_folder:](https://github.com/DanWahlin/NodeExpressMongoDBDockerApp) [:file_folder:](https://github.com/DanWahlin/CodeWithDanDockerServices) :arrow_forward:,
 - [Developing Docker Apps: Core Principles](https://app.pluralsight.com/library/courses/docker-apps-developing-core-principles/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/docker-apps-developing-core-principles/exercise-files) :arrow_forward:,
 - [Deploying Containerized Applications](https://app.pluralsight.com/library/courses/deploying-containerized-applications/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/deploying-containerized-applications/exercise-files) :arrow_forward:,
