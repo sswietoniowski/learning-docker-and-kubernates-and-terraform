@@ -32,6 +32,7 @@ Based on these (free) courses:
   - _[How to Create React App in Docker Container](https://frontendguruji.com/blog/how-to-create-react-app-in-docker-container/)_ :+1:,
   - _[How to Compose an ASP.NET Core Web API (.NET 6) with an MS SQL Server 2022 on Linux in Docker](https://blog.christian-schou.dk/dockerize-net-core-web-api-with-ms-sql-server/)_ :+1:,
 - Kubernates:
+  - [What is Kubernetes | Kubernetes explained in 15 mins](https://youtu.be/VnvRFRk_51k),
   - [Kubernetes Tutorial for Beginners](https://youtu.be/X48VuDVv0do),
   - [Kubernetes The Much Harder Way](https://youtu.be/bpp5tpgU6CE).
 
