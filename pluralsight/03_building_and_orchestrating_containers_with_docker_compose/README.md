@@ -369,4 +369,18 @@ To scale containers we can use:
 docker compose up --scale <service_name>=<number_of_instances>
 ```
 
+Another way to scale containers is to use `deploy` property.
+
+Example:
+
+```yaml
+deploy:
+  replicas: 3
+  restart_policy:
+    condition: on-failure
+    delay: 5s
+    max_attempts: 3
+    window: 120s
+```
+
 Now you know the basics of building and running containers with Docker Compose.
