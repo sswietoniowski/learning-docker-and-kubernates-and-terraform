@@ -323,6 +323,12 @@ docker compose rm
 
 Showed during the presentation.
 
+To see running containers we can use the following command:
+
+```bash
+docker compose ps
+```
+
 ## Additional Docker Compose Features
 
 There are some additional features that we can use with Docker Compose.
