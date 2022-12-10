@@ -24,7 +24,7 @@ Based on these (free) courses:
   - _[Use Docker Tools in Visual Studio on Windows](https://learn.microsoft.com/en-us/dotnet/architecture/containerized-lifecycle/design-develop-containerized-apps/visual-studio-tools-for-docker)_ :+1:,
   - _[Prepare an application for Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/aks/tutorial-kubernetes-prepare-app)_ :+1:,
   - _[Containerized Docker Application Lifecycle with Microsoft Platform and Tools](https://learn.microsoft.com/en-us/dotnet/architecture/containerized-lifecycle/)_,
-  - _[Intro to Docker - A Tool Every Developer Should Know](https://youtu.be/WcQ3-M4-jik)_ :+1:,
+  - _[Intro to Docker - A Tool Every Developer Should Know](https://youtu.be/WcQ3-M4-jik)_,
   - [Deploy a .NET Core API with Docker (Step-by-Step)](https://youtu.be/f0lMGPB10bM) :arrow_forward:,
   - [Step by step - Run and Connect to SQL Server in Docker](https://youtu.be/SJAl3vOX05M) :arrow_forward:,
   - [Docker Compose with .NET Core & SQL Server (Step by Step)](https://youtu.be/4V7CwC_4oss) :arrow_forward:,
