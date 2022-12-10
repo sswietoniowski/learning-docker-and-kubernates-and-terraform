@@ -176,15 +176,121 @@ Now we can use Docker Compose to orchestrate containers.
 
 ### Docker Compose Properties
 
+Scenario:
+
+- we have a web application that uses a database,
+- or we have a web application that uses a message broker,
+- or we have a web application that uses a cache,
+- eventually we have a web application(-s) that are using all of the above.
+
+How to start all of the above?
+
+We can use Docker Compose to start all of the above.
+
+Example:
+
+```bash
+docker compose up
+```
+
+To stop all of the above we can use:
+
+```bash
+docker compose down
+```
+
+Useful properties while running containers with Docker Compose:
+
+- the ones we used before,
+- ports: ports to expose (host:container),
+- volumes: volumes to mount (host:container),
+- environment: environment variables to set (key-value pairs), we can load them from a file,
+- networks: networks to connect to (name of the network).
+
 ### Define Ports and Volumes
+
+Examples of using these can be found [here](./NodeExpressMongoDBDockerApp/docker-compose.yml).
+
+Part of YAML file with the following properties:
+
+```yaml
+ports:
+  - '3000:3000'
+volumes:
+  - ./logs:/var/www/logs
+```
+
+Why we need volumes you might ask?
+
+Because we want to persist data, examples:
+
+- database data,
+- logs,
+- etc.
 
 ### Define Environment Variables
 
+Syntax to use environment variables from a file can be found in the [following](./CodeWithDanDockerServices/docker-compose.yml) file.
+
+Some examples.
+
+YAML file with the following properties:
+
+```yaml
+environment:
+  - MONGO_INITDB_ROOT_USERNAME=${MONGO_INITDB_ROOT_USERNAME}
+  - MONGO_INITDB_ROOT_PASSWORD=${MONGO_INITDB_ROOT_PASSWORD}
+```
+
+or (if we want to use a file):
+
+```yaml
+env_file:
+  - ./common.env
+  - ./settings.env
+```
+
 ### Create a Bridge Network
+
+Bridge networks are the default type of network in Docker.
+
+To create a bridge network we can use:
+
+```bash
+docker network create <network_name>
+```
+
+Syntax to use inside a YAML file:
+
+```yaml
+networks:
+  - <network_name>:
+    driver: bridge
+```
 
 ### Start and Stop Containers
 
+To start containers we can use:
+
+```bash
+docker compose up
+```
+
+To stop containers we can use:
+
+```bash
+docker compose down
+```
+
+To remove containers we can use:
+
+```bash
+docker compose rm
+```
+
 ### Using Docker Compose Commands
+
+Showed during the presentation.
 
 ## Additional Docker Compose Features
 
@@ -192,6 +298,26 @@ There are some additional features that we can use with Docker Compose.
 
 ### View Container Logs
 
+To view container logs we can use:
+
+```bash
+docker compose logs
+```
+
 ### Shell Into a Container
 
+To shell into a container we can use:
+
+```bash
+docker compose exec <service_name> sh
+```
+
 ### Scale Containers
+
+To scale containers we can use:
+
+```bash
+docker compose up --scale <service_name>=<number_of_instances>
+```
+
+Now you know the basics of building and running containers with Docker Compose.
