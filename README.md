@@ -33,7 +33,7 @@ Based on these (free) courses:
   - _[How to Compose an ASP.NET Core Web API (.NET 6) with an MS SQL Server 2022 on Linux in Docker](https://blog.christian-schou.dk/dockerize-net-core-web-api-with-ms-sql-server/)_ :+1:,
   - [Step by step guide on utilising Docker Compose with Asp.Net Core, SQL Server](https://youtu.be/zrzdRINyYdM),
 - Kubernates:
-  - [What is Kubernetes](https://youtu.be/VnvRFRk_51k),
+  - _[What is Kubernetes](https://youtu.be/VnvRFRk_51k)_ :+1:,
   - [Kubernetes Tutorial for Beginners](https://youtu.be/X48VuDVv0do),
   - [Kubernetes The Much Harder Way](https://youtu.be/bpp5tpgU6CE),
   - [How to deploy .NET apps to Kubernetes](https://youtu.be/cNlxPKy_NPA).
