@@ -341,6 +341,18 @@ To view container logs we can use:
 docker compose logs
 ```
 
+and to follow logs we can use:
+
+```bash
+docker compose logs -f
+```
+
+If we want to see logs for a specific service we can use:
+
+```bash
+docker compose logs <service_name>
+```
+
 ### Shell Into a Container
 
 To shell into a container we can use:
