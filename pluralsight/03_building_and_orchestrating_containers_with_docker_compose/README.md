@@ -172,4 +172,26 @@ docker compose push <service_name>
 
 ## Orchestrating Containers with Docker Compose
 
+Now we can use Docker Compose to orchestrate containers.
+
+### Docker Compose Properties
+
+### Define Ports and Volumes
+
+### Define Environment Variables
+
+### Create a Bridge Network
+
+### Start and Stop Containers
+
+### Using Docker Compose Commands
+
 ## Additional Docker Compose Features
+
+There are some additional features that we can use with Docker Compose.
+
+### View Container Logs
+
+### Shell Into a Container
+
+### Scale Containers
