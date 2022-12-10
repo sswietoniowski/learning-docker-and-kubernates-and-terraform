@@ -383,4 +383,30 @@ deploy:
     window: 120s
 ```
 
+We can't map ports when we scale containers nor use name property.
+
+Example:
+
+```yaml
+services:
+  web:
+    image: nginx
+    deploy:
+      replicas: 3
+      resources:
+        limits:
+          cpus: '0.1'
+          memory: 50M
+      restart_policy:
+        condition: on-failure
+    ports:
+      - '80'
+    networks:
+      - webnet
+```
+
+In this case to connect to the container we would need to use `docker compose ps` command to get the container details and then check the port mapping.
+
+## Summary
+
 Now you know the basics of building and running containers with Docker Compose.
