@@ -83,6 +83,93 @@ docker-compose networks
 
 ## Building Images with Docker Compose
 
+If we need to start more than one container, we can use Docker Compose.
+
+### Build Images with Docker Compose
+
+To do that we can use `docker-compose build` command. An example:
+
+```bash
+docker-compose build
+```
+
+In never versions of Docker Compose we can use `docker compose build` with the same result.
+
+Example:
+
+```bash
+docker compose build
+```
+
+Then we can use also never syntax to start and stop containers.
+
+Example:
+
+```bash
+docker compose up
+docker compose down
+```
+
+Key Docker Compose build properties:
+
+- context: path to the build context (where Dockerfile is located),
+- dockerfile: name of the Dockerfile (if not "Dockerfile"),
+- args: build arguments (key-value pairs),
+- image: name of the image (if not the name of the folder).
+
+All of that can be stored inside "docker-compose.yml" file.
+
+Example:
+
+```yaml
+version: '3.9'
+services:
+  web:
+    image: node-express-mongo
+    build:
+      context: .
+      dockerfile: node.dockerfile
+      args:
+        buildversion: 1.0.0
+        NODE_VERSION: 14.17.0
+        YARN_VERSION: 1.22.10
+      environment:
+        NODE_ENV: development
+        PORT: 3000
+    ports:
+      - '3000:3000'
+```
+
+### Add Build Properties to a Service
+
+A complete example of "docker-compose.yml" file can be found [here](./NodeExpressMongoDBDockerApp/docker-compose.yml).
+
+We will use _args_ variables for things like build version, node version, yarn version, etc. anything that we might want to change during the build process.
+
+We can use _environment_ variables for things that might change during the runtime.
+
+### Build Multiple Images
+
+To build multiple images we can also use "docker-compose.yml" file, good example of that can be found [here](./CodeWithDanDockerServices/docker-compose.yml).
+
+### Push Images to Registry
+
+To push images to registry we can do what we did before, but we can we can also use `docker compose push` command.
+
+Example:
+
+```bash
+docker compose push
+```
+
+We can push individual services or all services.
+
+To push and individual service we can use:
+
+```bash
+docker compose push <service_name>
+```
+
 ## Orchestrating Containers with Docker Compose
 
 ## Additional Docker Compose Features

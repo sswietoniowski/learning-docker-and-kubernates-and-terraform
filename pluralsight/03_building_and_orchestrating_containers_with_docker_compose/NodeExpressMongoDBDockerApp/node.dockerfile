@@ -26,13 +26,16 @@ LABEL       author="Sławomir Świętoniowski"
 
 # We can define some variables here
 ARG         PACKAGES=nano
+ARG         buildversion
 
 # Define environment variables
-ENV NODE_ENV=production
-ENV PORT=3000
+ENV         NODE_ENV=production
+ENV         PORT=3000
 ENV         TERM xterm
+ENV         build=$buildversion
 
 # Different commands to run
+RUN         echo "Build version: $build"
 RUN         apk update && apk add $PACKAGES
 
 # Starting point of your app (inside the container),

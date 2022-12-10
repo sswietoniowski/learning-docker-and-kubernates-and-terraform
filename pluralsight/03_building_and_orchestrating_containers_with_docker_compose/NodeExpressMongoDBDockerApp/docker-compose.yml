@@ -3,7 +3,6 @@ version: '3.7'
 
 # services contains the services that make up the application
 services:
-
   # The first service is the web service
   node:
     container_name: nodeapp
@@ -12,9 +11,10 @@ services:
       context: .
       dockerfile: node.dockerfile
       args:
-        PACKAGES: "nano wget curl"
+        buildversion: 1
+        PACKAGES: 'nano wget curl'
     ports:
-      - "3000:3000"
+      - '3000:3000'
     networks:
       - nodeapp-network
     volumes:
@@ -22,9 +22,9 @@ services:
     environment:
       - NODE_ENV=production
       - APP_VERSION=1.0
-    depends_on: 
+    depends_on:
       - mongodb
-      
+
   # The second service is the database service
   mongodb:
     container_name: mongodb
