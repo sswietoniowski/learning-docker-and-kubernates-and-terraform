@@ -250,9 +250,18 @@ env_file:
   - ./settings.env
 ```
 
+If one service depends on another service we can use _depends_on_ property.
+
+Example:
+
+```yaml
+depends_on:
+  - mongo
+```
+
 ### Create a Bridge Network
 
-Bridge networks are the default type of network in Docker.
+> Bridge networks are the default type of network in Docker.
 
 To create a bridge network we can use:
 
@@ -275,6 +284,28 @@ To start containers we can use:
 ```bash
 docker compose up
 ```
+
+To start in the detached mode we can use:
+
+```bash
+docker compose up -d
+```
+
+We can also start individual services:
+
+```bash
+docker compose up <service_name>
+```
+
+We can also use `--no-deps` flag to not start dependencies.
+
+Example:
+
+```bash
+docker compose up --no-deps <service_name>
+```
+
+> In this case we are not starting dependencies (we would reuse existing ones).
 
 To stop containers we can use:
 
