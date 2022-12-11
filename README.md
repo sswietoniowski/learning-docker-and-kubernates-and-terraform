@@ -13,6 +13,9 @@ This repository contains the following sub-directories:
   - Kubernates:
     - [Using Kubernetes as a Developer](https://app.pluralsight.com/paths/skills/using-kubernetes-as-a-developer),
     - [Certified Kubernetes Application Developer (CKAD)](https://app.pluralsight.com/paths/certificate/certified-kubernetes-application-developer-ckad),
+  - Terraform:
+    - [Managing Infrastructure with Terraform](https://app.pluralsight.com/paths/skill/managing-infrastructure-with-terraform),
+    - [HashiCorp Certified: Terraform Associate](https://app.pluralsight.com/paths/certificate/hashicorp-certified-terraform-associate),
 - [other](other/) some sample projects.
 
 ## Learning Resources
@@ -62,7 +65,14 @@ Also used these (paid) courses & books:
   - [Kubernetes for Developers: Deploying Your Code](https://app.pluralsight.com/library/courses/kubernetes-developers-deploying-code/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/kubernetes-developers-deploying-code/exercise-files),
   - [Kubernetes for Developers: Integrating Volumes and Using Multi-container Pods](https://app.pluralsight.com/library/courses/kubernetes-developers-integrating-volumes-using-multi-container-pods/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/kubernetes-developers-integrating-volumes-using-multi-container-pods/exercise-files),
   - [Kubernetes for Developers: Moving from Docker Compose to Kubernetes](https://app.pluralsight.com/library/courses/kubernetes-developers-docker-compose-kubernetes/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/kubernetes-developers-docker-compose-kubernetes/exercise-files),
-  - [Kubernetes for Developers: Moving to the Cloud](https://app.pluralsight.com/library/courses/kubernetes-developers-moving-cloud/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/kubernetes-developers-moving-cloud/exercise-files).
+  - [Kubernetes for Developers: Moving to the Cloud](https://app.pluralsight.com/library/courses/kubernetes-developers-moving-cloud/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/kubernetes-developers-moving-cloud/exercise-files),
+- Terraform:
+  - [Terraform - Getting Started](https://app.pluralsight.com/library/courses/terraform-getting-started-2021/table-of-contents) [:file_folder](https://app.pluralsight.com/library/courses/terraform-getting-started-2021/exercise-files),
+  - [Terraform Deep Dive](https://app.pluralsight.com/library/courses/terraform-deep-dive/table-of-contents) [:file_folder](https://app.pluralsight.com/library/courses/terraform-deep-dive/exercise-files),
+  - [Getting Started with Terraform Cloud](https://app.pluralsight.com/library/courses/terraform-cloud-getting-started/table-of-contents) [:file_folder](https://app.pluralsight.com/library/courses/terraform-cloud-getting-started/exercise-files),
+  - [Implementing Terraform on Microsoft Azure](https://app.pluralsight.com/library/courses/implementing-terraform-microsoft-azure/table-of-contents) [:file_folder](https://app.pluralsight.com/library/courses/implementing-terraform-microsoft-azure/exercise-files),
+  - [Implementing Terraform with AWS](https://app.pluralsight.com/library/courses/implementing-terraform-aws/table-of-contents) [:file_folder](https://app.pluralsight.com/library/courses/implementing-terraform-aws/exercise-files),
+  - [Implementing Terraform with Google Cloud Platform](https://app.pluralsight.com/library/courses/terraform-google-cloud-platform-implementing/table-of-contents) [:file_folder](https://app.pluralsight.com/library/courses/terraform-google-cloud-platform-implementing/exercise-files).
 
 ## Useful Tools & Other Resources
 
