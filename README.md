@@ -27,11 +27,11 @@ Based on these (free) courses:
   - _[Intro to Docker - A Tool Every Developer Should Know](https://youtu.be/WcQ3-M4-jik)_,
   - _[Deploy a .NET Core API with Docker (Step-by-Step)](https://youtu.be/f0lMGPB10bM)_ :+1:,
   - _[Step by step - Run and Connect to SQL Server in Docker](https://youtu.be/SJAl3vOX05M)_,
-  - _[Docker Compose with .NET Core & SQL Server (Step by Step)](https://youtu.be/4V7CwC_4oss),
+  - _[Docker Compose with .NET Core & SQL Server (Step by Step)](https://youtu.be/4V7CwC_4oss)_,
   - _[Web API in NET 6 + Docker](https://dev.to/berviantoleo/web-api-in-net-6-docker-41d5)_ :+1:,
   - _[How to Create React App in Docker Container](https://frontendguruji.com/blog/how-to-create-react-app-in-docker-container/)_ :+1:,
   - _[How to Compose an ASP.NET Core Web API (.NET 6) with an MS SQL Server 2022 on Linux in Docker](https://blog.christian-schou.dk/dockerize-net-core-web-api-with-ms-sql-server/)_ :+1:,
-  - _[Step by step guide on utilising Docker Compose with Asp.Net Core, SQL Server](https://youtu.be/zrzdRINyYdM) :+1:,
+  - _[Step by step guide on utilising Docker Compose with Asp.Net Core, SQL Server](https://youtu.be/zrzdRINyYdM)_ :+1:,
 - Kubernates:
   - _[What is Kubernetes](https://youtu.be/VnvRFRk_51k)_ :+1:,
   - [Kubernetes Tutorial for Beginners](https://youtu.be/X48VuDVv0do),
