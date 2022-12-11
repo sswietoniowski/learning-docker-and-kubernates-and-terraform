@@ -37,7 +37,7 @@ Based on these (free) courses:
   - [Kubernetes Tutorial for Beginners](https://youtu.be/X48VuDVv0do),
   - [Kubernetes The Much Harder Way](https://youtu.be/bpp5tpgU6CE),
   - [How to deploy .NET apps to Kubernetes](https://youtu.be/cNlxPKy_NPA),
- - other:
+- other:
   - [Top 10 Docker Alternatives You Must Know](https://www.knowledgehut.com/blog/devops/docker-alternatives).
 
 Also used these (paid) courses & books:
