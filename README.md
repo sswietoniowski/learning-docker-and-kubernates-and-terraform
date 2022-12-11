@@ -74,4 +74,5 @@ Some useful tools & other resources:
 - [Labs - Play with Docker](https://labs.play-with-docker.com/),
 - [Docker in Visual Studio Code](https://code.visualstudio.com/docs/containers/overview) [:file_folder:](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker),
 - [Podman Desktop](https://podman-desktop.io/),
-- [Visual Studio Code Dev Containers](https://code.visualstudio.com/docs/devcontainers/create-dev-container).
+- [Visual Studio Code Dev Containers](https://code.visualstudio.com/docs/devcontainers/create-dev-container),
+- [Terraform](https://www.terraform.io/)
