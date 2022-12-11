@@ -38,7 +38,8 @@ Based on these (free) courses:
   - [Kubernetes The Much Harder Way](https://youtu.be/bpp5tpgU6CE),
   - [How to deploy .NET apps to Kubernetes](https://youtu.be/cNlxPKy_NPA),
 - other:
-  - [Top 10 Docker Alternatives You Must Know](https://www.knowledgehut.com/blog/devops/docker-alternatives).
+  - [Top 10 Docker Alternatives You Must Know](https://www.knowledgehut.com/blog/devops/docker-alternatives),
+  - [Replacing Docker with Podman for VSCode DevContainers](https://blog.lifeishao.com/2021/12/30/replacing-docker-with-podman-for-your-vscode-devcontainers/).
 
 Also used these (paid) courses & books:
 
