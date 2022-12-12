@@ -90,4 +90,5 @@ Some useful tools & other resources:
 - [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli),
 - [Killercoda](https://killercoda.com/playgrounds/scenario/kubernetes),
 - [Play with Kubernetes](https://labs.play-with-k8s.com/),
-- [Kompose](https://kompose.io/).
+- [Kompose](https://kompose.io/),
+- [minikube](https://github.com/kubernetes/minikube).
