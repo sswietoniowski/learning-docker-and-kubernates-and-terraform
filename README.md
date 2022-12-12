@@ -45,7 +45,8 @@ Based on these (free) courses:
   - _[Top 10 Docker Alternatives You Must Know](https://www.knowledgehut.com/blog/devops/docker-alternatives)_,
   - _[Replacing Docker with Podman for VSCode DevContainers](https://blog.lifeishao.com/2021/12/30/replacing-docker-with-podman-for-your-vscode-devcontainers/)_,
   - _[Publish Container Images to Docker Hub / Image registry with Podman](https://computingforgeeks.com/how-to-publish-docker-image-to-docker-hub-with-podman/)_,
-  - _[Full Course - Infrastructure as Code with Terraform, Azure DevOps, Azure, Github, Docker and .Net 5](https://youtu.be/q4xNBqvD1uU)_ :+1:.
+  - _[Full Course - Infrastructure as Code with Terraform, Azure DevOps, Azure, Github, Docker and .Net 5](https://youtu.be/q4xNBqvD1uU)_ :+1:,
+  - [Getting Started with Terraform on Windows 10](https://thomgreene.com/post/2020/2020-06-15-terraform-getting-started-windows/).
 
 Also used these (paid) courses & books:
 
