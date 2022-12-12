@@ -40,6 +40,7 @@ Based on these (free) courses:
   - [Kubernetes Tutorial for Beginners](https://youtu.be/X48VuDVv0do),
   - [Kubernetes The Much Harder Way](https://youtu.be/bpp5tpgU6CE),
   - _[How to deploy .NET apps to Kubernetes](https://youtu.be/cNlxPKy_NPA)_,
+  - _[Translate a Docker Compose File to Kubernetes Resources](https://kubernetes.io/docs/tasks/configure-pod-container/translate-compose-kubernetes/)_,
 - other:
   - _[Top 10 Docker Alternatives You Must Know](https://www.knowledgehut.com/blog/devops/docker-alternatives)_,
   - _[Replacing Docker with Podman for VSCode DevContainers](https://blog.lifeishao.com/2021/12/30/replacing-docker-with-podman-for-your-vscode-devcontainers/)_,
