@@ -86,4 +86,6 @@ Some useful tools & other resources:
 - [Podman Desktop](https://podman-desktop.io/),
 - [Visual Studio Code Dev Containers](https://code.visualstudio.com/docs/devcontainers/create-dev-container),
 - [Terraform](https://www.terraform.io/),
-- [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli).
+- [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli),
+- [Killercoda](https://killercoda.com/playgrounds/scenario/kubernetes),
+- [Play with Kubernetes](https://labs.play-with-k8s.com/).
