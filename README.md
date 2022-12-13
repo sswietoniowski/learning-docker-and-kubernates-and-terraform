@@ -93,6 +93,7 @@ Some useful tools & other resources:
 - [Docker in Visual Studio Code](https://code.visualstudio.com/docs/containers/overview) [:file_folder:](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker),
 - [Podman Desktop](https://podman-desktop.io/),
 - [Visual Studio Code Dev Containers](https://code.visualstudio.com/docs/devcontainers/create-dev-container),
+- [Testcontainers](https://github.com/testcontainers/testcontainers-dotnet),
 - [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli),
 - [Killercoda](https://killercoda.com/playgrounds/scenario/kubernetes),
 - [Play with Kubernetes](https://labs.play-with-k8s.com/),
