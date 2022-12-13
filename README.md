@@ -49,7 +49,9 @@ Based on these (free) courses:
   - [Getting Started with Terraform on Windows 10](https://thomgreene.com/post/2020/2020-06-15-terraform-getting-started-windows/),
   - [Infrastructure as Code, part 1: create a Kubernetes cluster with Terraform](https://circleci.com/blog/learn-iac-part1/),
   - [Infrastructure as Code, part 2: build Docker images and deploy to Kubernetes with Terraform](https://circleci.com/blog/learn-iac-part02/),
-  - [Infrastructure as Code, part 3: automate Kubernetes deployments with CI/CD and Terraform](https://circleci.com/blog/learn-iac-part3/).
+  - [Infrastructure as Code, part 3: automate Kubernetes deployments with CI/CD and Terraform](https://circleci.com/blog/learn-iac-part3/),
+- Terraform:
+  - [Using Terraform with Azure](https://youtu.be/JKVkblsp3cM).
 
 Also used these (paid) courses & books:
 
