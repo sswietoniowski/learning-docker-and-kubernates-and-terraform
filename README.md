@@ -95,7 +95,7 @@ Some useful tools & other resources:
 - [Visual Studio Code Dev Containers](https://code.visualstudio.com/docs/devcontainers/create-dev-container),
 - [Testcontainers](https://github.com/testcontainers/testcontainers-dotnet),
 - [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli),
-- [Killercoda](https://killercoda.com/playgrounds/scenario/kubernetes),
+- [Killercoda](https://killercoda.com/playgrounds/scenario/kubernetes) [:file_folder:](https://github.com/killercoda/scenario-examples),
 - [Play with Kubernetes](https://labs.play-with-k8s.com/),
 - [Kompose](https://kompose.io/),
 - [minikube](https://github.com/kubernetes/minikube),
