@@ -1,4 +1,4 @@
-# Learning Docker - Fundamentals
+# Learning Docker & Kubernates & Terraform
 
 This repository contains resources helping grasps the basics of Docker.
 
