@@ -101,4 +101,3 @@ Some useful tools & other resources:
 - [Kompose](https://kompose.io/),
 - [minikube](https://github.com/kubernetes/minikube),
 - [Terraform](https://www.terraform.io/).
-
